@@ -1,0 +1,32 @@
+
+spring:
+  
+   application:
+     name: spring boot yml example
+   
+    
+   #first ds
+   first-datasource:
+    platform: postgres
+    jdbc-url: jdbc:postgresql://localhost:5432/ds_example_one
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver   
+    hikari:
+      maximum-pool-size: 20
+      connection-timeout: 70000
+      
+  #second ds
+   second-datasource:
+    platform: postgres
+    jdbc-url: jdbc:postgresql://localhost:5433/ds_example_two
+    username: postgres
+    password: postgres
+    driverClassName: org.postgresql.Driver   
+    hikari:
+      maximum-pool-size: 20
+      connection-timeout: 70000
+      
+      
+server:
+   port: 8070

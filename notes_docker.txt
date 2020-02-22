@@ -1,0 +1,9 @@
+# Obtiene la últim imagen de postgres de docker hub
+`
+docker pull postgres
+`
+
+# Crea una instancia de postgres en docker
+`
+docker run -p:5433:5432 --name [username] -e POSTGRES_PASSWORD=[passwd] -d postgres
+`
