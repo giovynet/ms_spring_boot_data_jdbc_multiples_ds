@@ -1,0 +1,42 @@
+#FILES
+.DS_Store
+.project
+.classpath
+.dbeaver-data-sources.xml
+.tern-project
+dbeaver-data-sources.xml
+#DIRECTORIES
+.metadata/
+.recommenders/
+.settings/
+.Servers/
+.settings/
+.RemoteSystemsTempFiles/
+RemoteSystemsTempFiles/
+.recommenders/
+.dbeaver/
+target/
+
+### STS ###
+.apt_generated
+.factorypath
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
